@@ -1,4 +1,7 @@
-/*
+#include<stdio.h>
+#define TRUE 1
+#define FALSE 0
+    /*
 ////////////////////////////////////////////////////
 //
 // Function Name : CheckEven
@@ -10,9 +13,6 @@
 //
 ////////////////////////////////////////////////////
 */
-#include<stdio.h>
-#define TRUE 1
-#define FALSE 0
 
 typedef int BOOL;
 BOOL CheckEven(int iNo)
