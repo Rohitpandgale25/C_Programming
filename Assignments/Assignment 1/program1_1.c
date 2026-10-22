@@ -1,3 +1,15 @@
+/*
+////////////////////////////////////////////////////
+//
+// Function Name : Divide
+// Description   : Performs division of two integers
+// Input         : Integer, Integer
+// Output        : Integer (returns -1 if divisor is zero)
+// Author        : Rohit Gokul Pandgale
+// Date          : 21/10/2026
+//
+////////////////////////////////////////////////////
+*/
 #include <stdio.h>
 int Divide(int iNo1,int iNo2)
 {
