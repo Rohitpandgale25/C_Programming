@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: Display
+//  Description  : Displays single digit number in words
+//  Input        : Integer
+//  Output       : Void
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 void Display(int iNo)

@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: SquareMeter
+//  Description  : Converts square feet into square meter
+//  Input        : Integer
+//  Output       : Double
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 double SquareMeter(int iValue)

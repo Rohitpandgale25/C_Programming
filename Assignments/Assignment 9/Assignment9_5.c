@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: FactorialDiff
+//  Description  : Returns difference between even and odd factorial
+//  Input        : Integer
+//  Output       : Integer
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 long long FactorialDiff(int iNo)

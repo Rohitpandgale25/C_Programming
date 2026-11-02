@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: CircleArea
+//  Description  : Calculates area of a circle
+//  Input        : Float
+//  Output       : Double
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 double CircleArea(float fRadius)

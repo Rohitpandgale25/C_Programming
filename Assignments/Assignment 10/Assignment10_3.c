@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: KMtoMeter
+//  Description  : Converts kilometre into metre
+//  Input        : Integer
+//  Output       : Integer
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 int KMtoMeter(int iNo)

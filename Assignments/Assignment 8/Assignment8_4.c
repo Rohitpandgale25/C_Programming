@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: Table
+//  Description  : Displays multiplication table of given number
+//  Input        : Integer
+//  Output       : Void
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 void Table(int iNo)

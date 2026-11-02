@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: TableRev
+//  Description  : Displays multiplication table in reverse order
+//  Input        : Integer
+//  Output       : Void
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 void TableRev(int iNo)

@@ -1,3 +1,13 @@
+////////////////////////////////////////////////////////////
+//
+//  Function Name: Fah
+//  Description  : Converts Fahrenheit temperature into Celsius
+//  Input        : Float
+//  Output       : Double
+//  Date         : 02/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+////////////////////////////////////////////////////////////
 #include<stdio.h>
 
 double FhtoCs(float fTemp)
