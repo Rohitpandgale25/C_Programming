@@ -1,4 +1,16 @@
 #include<stdio.h>
+/*
+////////////////////////////////////////////////////
+//
+// Function Name : PrintEven
+// Description   : Prints all even numbers from 1 to the given number
+// Input         : Integer
+// Output        : None (prints even numbers to the screen)
+// Author        : Rohit Gokul Pandgale
+// Date          : 21/10/2026
+//
+////////////////////////////////////////////////////
+*/
 void PrintEven(int iNo)
 {
     int iCnt=1;

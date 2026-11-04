@@ -1,3 +1,5 @@
+#include<stdio.h>
+#include<stdlib.h>
 /*
 ////////////////////////////////////////////////////
 //
@@ -11,8 +13,6 @@
 //
 ////////////////////////////////////////////////////
 */
-#include<stdio.h>
-#include<stdlib.h>
 
 void FindGreater(int iNo1, int iNo2)
 {

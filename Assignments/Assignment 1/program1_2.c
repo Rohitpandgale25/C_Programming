@@ -11,6 +11,18 @@
 ////////////////////////////////////////////////////
 */
 #include<stdio.h>
+/*
+////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Description   : Displays "Marvellous" five times
+// Input         : None
+// Output        : None (prints to the screen)
+// Author        : Rohit Gokul Pandgale
+// Date          : 21/10/2026
+//
+////////////////////////////////////////////////////
+*/
 void Display()
 {
     int i=0;

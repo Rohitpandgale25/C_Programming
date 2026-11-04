@@ -13,6 +13,18 @@
 #include<stdio.h>
 #define TRUE 1
 #define FALSE 0
+    /*
+////////////////////////////////////////////////////
+//
+// Function Name : CheckEven
+// Description   : Checks whether a number is even or odd
+// Input         : Integer
+// Output        : BOOL (TRUE if even, otherwise FALSE)
+// Author        : Rohit Gokul Pandgale
+// Date          : 21/10/2026
+//
+////////////////////////////////////////////////////
+*/
 
 typedef int BOOL;
 BOOL CheckEven(int iNo)

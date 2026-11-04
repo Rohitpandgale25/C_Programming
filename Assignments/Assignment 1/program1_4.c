@@ -11,7 +11,18 @@
 ////////////////////////////////////////////////////
 */
 #include<stdio.h>
-
+/*
+////////////////////////////////////////////////////
+//
+// Function Name : Check
+// Description   : Checks whether a number is divisible by 5
+// Input         : Integer
+// Output        : BOOL (TRUE if divisible by 5, otherwise FALSE)
+// Author        : Rohit Gokul Pandgale
+// Date          : 21/10/2026
+//
+////////////////////////////////////////////////////
+*/
 typedef int BOOL;
 #define TRUE 1
 #define FALSE 0

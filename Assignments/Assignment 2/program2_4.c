@@ -11,6 +11,18 @@
 ////////////////////////////////////////////////////
 */
 #include<stdio.h>
+/*
+////////////////////////////////////////////////////
+//
+// Function Name : Display
+// Description   : Displays a number for the specified frequency
+// Input         : Integer, Integer
+// Output        : (prints the number repeatedly)
+// Author        : Rohit Gokul Pandgale
+// Date          : 21/10/2026
+//
+////////////////////////////////////////////////////
+*/
 void Display(int iNo,int iFrequency)
 {
     int iCnt=0;

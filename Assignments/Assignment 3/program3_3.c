@@ -1,3 +1,6 @@
+
+#include<stdio.h>
+#include<stdlib.h>
 /*
 ////////////////////////////////////////////////////
 //
@@ -10,8 +13,6 @@
 //
 ////////////////////////////////////////////////////
 */
-#include<stdio.h>
-#include<stdlib.h>
 void DisplayEvenFactor(int iNo)
 {
     int iCnt = 0;

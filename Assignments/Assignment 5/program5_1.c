@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+/*
+////////////////////////////////////////////////////
+//
+// Function Name : FindGreatest
+// Description   : Finds the greatest among three integers,including when two or all numbers are equal
+// Input         : Integer, Integer, Integer
+// Output        : (prints the greatest number)
+// Author        : Rohit Gokul Pandgale
+// Date          : 22/10/2026
+//
+////////////////////////////////////////////////////
+*/
+
+void FindGreatest(int iFirst, int iSecond, int iThird)
+{
+    if (iFirst >= iSecond && iFirst >= iThird)
+    {
+        printf("%d is Greatest\n", iFirst);
+    }
+    else if (iSecond >= iFirst && iSecond >= iThird)
+    {
+        printf("%d is Greatest\n", iSecond);
+    }
+    else
+    {
+        printf("%d is Greatest\n", iThird);
+    }
+}
+
+int main()
+{
+    int iValue1 = 0, iValue2 = 0, iValue3 = 0;
+
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &iValue1, &iValue2, &iValue3);
+
+    FindGreatest(iValue1, iValue2, iValue3);
+
+    return EXIT_SUCCESS;
+}
