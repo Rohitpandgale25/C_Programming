@@ -9,7 +9,7 @@
 //  Input        : Integer , Integer
 //  Output       : Float
 //  Date         : 04/11/2026
-//  Author       : Vishal Shriram Bhusare
+//  Author       : Rohit Gokul Pandgale
 //
 //////////////////////////////////////////////////////////////////////////////////////
 
