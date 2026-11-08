@@ -1,0 +1,360 @@
+[1mdiff --git a/Assignments/Assignment 10/Assignment10_1.c b/Assignments/Assignment 10/Assignment10_1.c[m
+[1mindex e72f12c..d1c7e2e 100644[m
+[1m--- a/Assignments/Assignment 10/Assignment10_1.c[m	
+[1m+++ b/Assignments/Assignment 10/Assignment10_1.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: CircleArea[m
+[32m+[m[32m//  Description  : Calculates area of a circle[m
+[32m+[m[32m//  Input        : Float[m
+[32m+[m[32m//  Output       : Double[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ double CircleArea(float fRadius)[m
+[1mdiff --git a/Assignments/Assignment 10/Assignment10_2.c b/Assignments/Assignment 10/Assignment10_2.c[m
+[1mindex 873ee30..fc3c708 100644[m
+[1m--- a/Assignments/Assignment 10/Assignment10_2.c[m	
+[1m+++ b/Assignments/Assignment 10/Assignment10_2.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: RectArea[m
+[32m+[m[32m//  Description  : Calculates area of a rectangle[m
+[32m+[m[32m//  Input        : Float, Float[m
+[32m+[m[32m//  Output       : Double[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ double RectArea(float fWidth, float fHeight)[m
+[1mdiff --git a/Assignments/Assignment 10/Assignment10_3.c b/Assignments/Assignment 10/Assignment10_3.c[m
+[1mindex 48fd286..3962e9b 100644[m
+[1m--- a/Assignments/Assignment 10/Assignment10_3.c[m	
+[1m+++ b/Assignments/Assignment 10/Assignment10_3.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: KMtoMeter[m
+[32m+[m[32m//  Description  : Converts kilometre into metre[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Integer[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ int KMtoMeter(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 10/Assignment10_4.c b/Assignments/Assignment 10/Assignment10_4.c[m
+[1mindex fb90d90..fc29451 100644[m
+[1m--- a/Assignments/Assignment 10/Assignment10_4.c[m	
+[1m+++ b/Assignments/Assignment 10/Assignment10_4.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Fah[m
+[32m+[m[32m//  Description  : Converts Fahrenheit temperature into Celsius[m
+[32m+[m[32m//  Input        : Float[m
+[32m+[m[32m//  Output       : Double[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ double FhtoCs(float fTemp)[m
+[1mdiff --git a/Assignments/Assignment 10/Assignment10_5.c b/Assignments/Assignment 10/Assignment10_5.c[m
+[1mindex 1ef4001..67f9ae7 100644[m
+[1m--- a/Assignments/Assignment 10/Assignment10_5.c[m	
+[1m+++ b/Assignments/Assignment 10/Assignment10_5.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: SquareMeter[m
+[32m+[m[32m//  Description  : Converts square feet into square meter[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Double[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ double SquareMeter(int iValue)[m
+[1mdiff --git a/Assignments/Assignment 7/Assignment7_1.c b/Assignments/Assignment 7/Assignment7_1.c[m
+[1mindex c875a39..9a45668 100644[m
+[1m--- a/Assignments/Assignment 7/Assignment7_1.c[m	
+[1m+++ b/Assignments/Assignment 7/Assignment7_1.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Pattern[m
+[32m+[m[32m//  Description  : Prints dollar and star symbols alternately[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void pattern(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 7/Assignment7_2.c b/Assignments/Assignment 7/Assignment7_2.c[m
+[1mindex f7e117f..51dca45 100644[m
+[1m--- a/Assignments/Assignment 7/Assignment7_2.c[m	
+[1m+++ b/Assignments/Assignment 7/Assignment7_2.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Display[m
+[32m+[m[32m//  Description  : Displays numbers from 1 to given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include <stdio.h>[m
+ void display(int iNo)[m
+ {[m
+[1mdiff --git a/Assignments/Assignment 7/Assignment7_3.c b/Assignments/Assignment 7/Assignment7_3.c[m
+[1mindex 538009c..6dc7644 100644[m
+[1m--- a/Assignments/Assignment 7/Assignment7_3.c[m	
+[1m+++ b/Assignments/Assignment 7/Assignment7_3.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Display[m
+[32m+[m[32m//  Description  : Displays numbers from negative N to positive N[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void Display(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 7/Assignment7_4.c b/Assignments/Assignment 7/Assignment7_4.c[m
+[1mindex 4c4f621..fa9a57b 100644[m
+[1m--- a/Assignments/Assignment 7/Assignment7_4.c[m	
+[1m+++ b/Assignments/Assignment 7/Assignment7_4.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: OddDisplay[m
+[32m+[m[32m//  Description  : Displays all odd numbers up to given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void OddDisplay(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 7/Assignment7_5.c b/Assignments/Assignment 7/Assignment7_5.c[m
+[1mindex 12be575..5887ad0 100644[m
+[1m--- a/Assignments/Assignment 7/Assignment7_5.c[m	
+[1m+++ b/Assignments/Assignment 7/Assignment7_5.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: MultipleDisplay[m
+[32m+[m[32m//  Description  : Displays first five multiples of given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void MultipleDisplay(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 8/Assignment8_1.c b/Assignments/Assignment 8/Assignment8_1.c[m
+[1mindex 02caede..b279e21 100644[m
+[1m--- a/Assignments/Assignment 8/Assignment8_1.c[m	
+[1m+++ b/Assignments/Assignment 8/Assignment8_1.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Number[m
+[32m+[m[32m//  Description  : Checks whether number is small, medium or large[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void Number(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 8/Assignment8_2.c b/Assignments/Assignment 8/Assignment8_2.c[m
+[1mindex 282c03a..7fc158a 100644[m
+[1m--- a/Assignments/Assignment 8/Assignment8_2.c[m	
+[1m+++ b/Assignments/Assignment 8/Assignment8_2.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Display[m
+[32m+[m[32m//  Description  : Displays single digit number in words[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void Display(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 8/Assignment8_3.c b/Assignments/Assignment 8/Assignment8_3.c[m
+[1mindex 578fe3f..4859fb9 100644[m
+[1m--- a/Assignments/Assignment 8/Assignment8_3.c[m	
+[1m+++ b/Assignments/Assignment 8/Assignment8_3.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Factorial[m
+[32m+[m[32m//  Description  : Calculates factorial of given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Integer[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ long long Factorial(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 8/Assignment8_4.c b/Assignments/Assignment 8/Assignment8_4.c[m
+[1mindex 35f20f0..ba8b16a 100644[m
+[1m--- a/Assignments/Assignment 8/Assignment8_4.c[m	
+[1m+++ b/Assignments/Assignment 8/Assignment8_4.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Table[m
+[32m+[m[32m//  Description  : Displays multiplication table of given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void Table(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 8/Assignment8_5.c b/Assignments/Assignment 8/Assignment8_5.c[m
+[1mindex 858c10b..98e99ed 100644[m
+[1m--- a/Assignments/Assignment 8/Assignment8_5.c[m	
+[1m+++ b/Assignments/Assignment 8/Assignment8_5.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: TableRev[m
+[32m+[m[32m//  Description  : Displays multiplication table in reverse order[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void TableRev(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 9/Assignment9_1.c b/Assignments/Assignment 9/Assignment9_1.c[m
+[1mindex d7b2823..91a0599 100644[m
+[1m--- a/Assignments/Assignment 9/Assignment9_1.c[m	
+[1m+++ b/Assignments/Assignment 9/Assignment9_1.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m ////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: Display[m
+[32m+[m[32m//  Description  : Displays stars followed by hash symbols[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Void[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ void Display(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 9/Assignment9_2.c b/Assignments/Assignment 9/Assignment9_2.c[m
+[1mindex 45c0321..b38783c 100644[m
+[1m--- a/Assignments/Assignment 9/Assignment9_2.c[m	
+[1m+++ b/Assignments/Assignment 9/Assignment9_2.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: DollarToINR[m
+[32m+[m[32m//  Description  : Converts US dollars into Indian rupees[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Integer[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ int DollarToINR(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 9/Assignment9_3.c b/Assignments/Assignment 9/Assignment9_3.c[m
+[1mindex 86b41e8..d78dc98 100644[m
+[1m--- a/Assignments/Assignment 9/Assignment9_3.c[m	
+[1m+++ b/Assignments/Assignment 9/Assignment9_3.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: EvenFactorial[m
+[32m+[m[32m//  Description  : Calculates even factorial of given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Integer[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ long long EvenFactorial(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 9/Assignment9_4.c b/Assignments/Assignment 9/Assignment9_4.c[m
+[1mindex 87b035a..da00296 100644[m
+[1m--- a/Assignments/Assignment 9/Assignment9_4.c[m	
+[1m+++ b/Assignments/Assignment 9/Assignment9_4.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: OddFactorial[m
+[32m+[m[32m//  Description  : Calculates odd factorial of given number[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Integer[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ long long OddFactorial(int iNo)[m
+[1mdiff --git a/Assignments/Assignment 9/Assignment9_5.c b/Assignments/Assignment 9/Assignment9_5.c[m
+[1mindex 6cb3bb4..8efc20f 100644[m
+[1m--- a/Assignments/Assignment 9/Assignment9_5.c[m	
+[1m+++ b/Assignments/Assignment 9/Assignment9_5.c[m	
+[36m@@ -1,3 +1,13 @@[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+[32m+[m[32m//[m
+[32m+[m[32m//  Function Name: FactorialDiff[m
+[32m+[m[32m//  Description  : Returns difference between even and odd factorial[m
+[32m+[m[32m//  Input        : Integer[m
+[32m+[m[32m//  Output       : Integer[m
+[32m+[m[32m//  Date         : 02/11/2026[m
+[32m+[m[32m//  Author       : Rohit Gokul Pandgale[m
+[32m+[m[32m//[m
+[32m+[m[32m////////////////////////////////////////////////////////////[m
+ #include<stdio.h>[m
+ [m
+ long long FactorialDiff(int iNo)[m

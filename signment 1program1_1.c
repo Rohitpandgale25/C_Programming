@@ -1,0 +1,37 @@
+[1mdiff --cc Assignments/Assignment 1/program1_1.c[m
+[1mindex 85dcb45,4a4f00c..0000000[m
+[1m--- a/Assignments/Assignment 1/program1_1.c[m
+[1m+++ b/Assignments/Assignment 1/program1_1.c[m
+[36m@@@ -1,16 -1,17 +1,32 @@@[m
+[32m++<<<<<<< HEAD[m
+[32m +/*[m
+[32m +////////////////////////////////////////////////////[m
+[32m +//[m
+[32m +// Function Name : Divide[m
+[32m +// Description   : Performs division of two integers[m
+[32m +// Input         : Integer, Integer[m
+[32m +// Output        : Integer (returns -1 if divisor is zero)[m
+[32m +// Author        : Rohit Gokul Pandgale[m
+[32m +// Date          : 21/10/2026[m
+[32m +//[m
+[32m +////////////////////////////////////////////////////[m
+[32m +*/[m
+[32m++=======[m
+[32m+ [m
+[32m++>>>>>>> origin/main[m
+  #include <stdio.h>[m
+[32m+ /*[m
+[32m+ ////////////////////////////////////////////////////[m
+[32m+ //[m
+[32m+ // Function Name : Divide[m
+[32m+ // Description   : Performs division of two integers[m
+[32m+ // Input         : Integer, Integer[m
+[32m+ // Output        : Integer (returns -1 if divisor is zero)[m
+[32m+ // Author        : Rohit Gokul Pandgale[m
+[32m+ // Date          : 21/10/2026[m
+[32m+ //[m
+[32m+ ////////////////////////////////////////////////////[m
+[32m+ */[m
+  int Divide(int iNo1,int iNo2)[m
+  {[m
+      int iAns=0;[m
