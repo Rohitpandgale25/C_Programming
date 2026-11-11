@@ -1,0 +1,49 @@
+//Write a program which accept string from user and toggle the case
+#include<stdio.h>
+#include<stdlib.h>
+
+//////////////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name: strtogglex
+//  Description  : program which accept string from user and toggle the case
+//  Input        : String
+//  Output       : Charecter Array
+//  Date         : 11/11/2026
+//  Author       : Rohit Gokul Pandgale
+//
+//////////////////////////////////////////////////////////////////////////////////////
+
+void strtogglex(char *str)
+{
+    while (*str != '\0')
+    {
+        if(*str > 64 && *str < 91)
+        {
+            *str = *str + 32;
+            str++;
+        }
+        else if(*str > 95 && *str < 123)
+        {
+            *str = *str - 32;
+            str++;
+        }
+        else
+        {
+            str++;
+        }
+    }
+}
+
+int main()
+{
+    char Arr[20];
+
+    printf("Enter Your String : \n");
+    scanf("%[^'\n']s",&Arr);
+
+    strtogglex(Arr);
+
+    printf("Modified string is : %s",Arr);
+
+    return EXIT_SUCCESS;
+}
